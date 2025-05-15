@@ -3,7 +3,7 @@ resource "aws_vpc" "akauan_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "tf-vpc-teste"
+    Name = "tf-vpc-akauan"
   }
 }
 
